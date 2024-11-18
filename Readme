@@ -1,0 +1,25 @@
+YouTube Channel Data Analysis
+Overview
+A project designed to scrape and analyze YouTube video data using Python, agentql, and OpenAI's API. It generates comprehensive markdown reports with insights into video performance, trends, and improvement recommendations.
+
+Features
+Scrapes video data (titles, views, upload dates) from YouTube.
+Uses playwright for web automation and agentql for data extraction.
+Generates markdown reports using OpenAI's GPT model.
+Analyzes top and bottom-performing videos, trends, and suggests improvements.
+Technologies Used
+Python, Playwright, agentql, OpenAI API, dotenv
+Installation & Setup
+ Set up a .env file with your API keys and rename it accordingly 
+
+Output
+The script produces a markdown report summarizing:
+
+Top and bottom 3 videos by view count.
+View count distribution and trends.
+Recommendations for future content.
+Future Enhancements
+Include additional YouTube metadata.
+Implement pagination for larger datasets.
+Expand analysis with title and description sentiment insights.
+NOTE- The analysis is done only for a period of time (Eg. for the past 6 months)
