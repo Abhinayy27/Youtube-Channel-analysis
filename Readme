@@ -1,4 +1,4 @@
-#YouTube Channel Data Analysis-
+#YouTube Channel Data Analysis- AI Agent
 Overview
 An AI Agent designed to scrape and analyze YouTube video data using Python, agentql, and OpenAI's API. It generates comprehensive markdown reports with insights into video performance, trends, and improvement recommendations.
 
